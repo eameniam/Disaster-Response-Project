@@ -21,8 +21,9 @@ In this project, I am using the ETL, NLp and ML pipeline to deal with real messa
 
 
 ## File Descriptions <a name="files"></a>
-There is a notebooks available here to showcase work related to the above questions.
+There are two notebooks available here to showcase work related to the above questions.
 The notebooks contains my steps for making the conclusion based on the data analysis of factors affecting the reservation prices. Detail explanations are included to help  you walking throught process.
+And there are three folder, the data included the data processing ETL, and the model folder included the ML pipeline model.
 
 ## Results<a name="results"></a>
 
