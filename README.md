@@ -1,7 +1,5 @@
 # Disaster-Response-Project
 
-In this project, I focus on three business problems and predicted the reservation price using the KNN machine learning algorithm regarding the Los Angeles Airbnb Sep.2019 dataset.
-
 ### Table of Contents
 
 1. [Installation](#installation)
