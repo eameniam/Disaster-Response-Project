@@ -38,8 +38,6 @@ def load_data(database_filepath):
     y = df.iloc[:,4:]
     return X, y
 
-
-
 def tokenize(text):
     #normalize text
     text = re.sub(r'[^a-zA-Z0-9]',' ',text.lower())
@@ -87,11 +85,8 @@ def evaluate_model(model, X_test, Y_test, category_names):
     
     print(classification_report(y_test.iloc[:,1:].values, np.array([x[1:] for x in y_pred]), target_names=category_names))
 
-
 def save_model(model, model_filepath):
     pickle.dump(model, open(model_filepath, 'wb'))
-
-
 
 def main():
     if len(sys.argv) == 3:
